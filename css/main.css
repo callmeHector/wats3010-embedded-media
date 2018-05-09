@@ -5,6 +5,86 @@
  * Site Styles
  *****************************************************************************/
 
- html {
-     color: green;
+html {
+     height: 0;
+     margin: 0;
+     background-color: #C4E1FF
  }
+
+h1 {
+    display: none;
+}
+
+/* Header navigation styles*/
+header {
+    height: 300px;
+    background: url(../img/official_header.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 47px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4EA8FF;
+    opacity: 0.5;
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+nav li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+
+/* Social Media link styles*/
+
+ul.social-links {
+    list-style: none;
+    float: right;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
