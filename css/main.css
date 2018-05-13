@@ -8,7 +8,7 @@
 html {
      height: 0;
      margin: 0;
-     background-color: #C4E1FF;
+     background-color: white;
      font-family: verdana, sans-serif;
      font-size: 20px;
  }
@@ -16,6 +16,15 @@ html {
 a {
     cursor: pointer;
 }
+
+
+h2 {
+    color: white;
+    background-color: #4EA8FB;
+    max-width: fit-content;
+    padding: 3px;
+}
+
 /* Header navigation styles*/
 header {
     height: 300px;
@@ -24,6 +33,12 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 52px;
+}
+
+p.subtitle {
+    padding-top: 275px;
+    font-weight: 800;
+    color: black;
 }
 
 h1 {
@@ -71,10 +86,6 @@ aside#social {
     right: 20px;
 }
 
-aside h2 {
-    background-color:#8DC7FF;
-    padding-left: 7px;
-}
 
 .social-links {
     list-style: none;
@@ -110,5 +121,40 @@ aside h2 {
 /* Section Styles */
 
 section {
-    width:85%;
 }
+
+/* Download Button Styles */
+
+.download-button {
+    background-color: DodgerBlue;
+    display: inline-block;
+    border: none;
+    color: white;
+    padding-right: 10px;
+    font-size: 16px;
+}
+
+.download-button:hover{
+    background-color: royalblue;
+}
+
+/* Weybec photos */
+
+ul.weybec-people {
+    list-style: none;
+    display: inline-flex;
+}
+
+img.headshot {
+    height:250px;
+    width: auto;
+    padding: 25px;
+    
+}
+
+video {
+    height:500px;
+    width: 75%;
+}
+
+
